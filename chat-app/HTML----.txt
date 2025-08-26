@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text Chat</title>
+
+  <!-- 🎨 Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Updated CSS reference -->
+  <link rel="stylesheet" href="local-omegle-style.css" />
+</head>
+<body>
+
+  <!-- 🌙 Dark Mode Toggle -->
+  <button id="themeToggle">🌙 Toggle Dark Mode</button>
+
+  <!-- ⏱️ Chat Timer -->
+  <div id="chatTimer">Chat Duration: 0m 0s</div>
+
+  <!-- 🚀 Start/Disconnect Buttons -->
+  <button id="startBtn">Start Chat</button>
+  <button id="disconnectBtn">Disconnect</button>
+
+  <!-- 💬 Chat Container -->
+  <div id="chat-container">
+    <div id="messages"></div>
+    <div id="typingIndicator" class="hidden">Stranger is typing...</div>
+    <input type="text" id="messageInput" placeholder="Type your message..." />
+    <button id="sendBtn">Send</button>
+  </div>
+
+  <!-- Updated JS reference -->
+  <script src="local-omegle-script.js"></script>
+</body>
+</html>
